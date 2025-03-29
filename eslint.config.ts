@@ -8,7 +8,7 @@ export default [
     tseslint.configs.recommended,
     pluginJs.configs.recommended,
     {
-        files: ['src/**/*.js'],
+        files: ['src/**/*.ts'],
         languageOptions: { globals: globals.node },
         rules: {
             semi: 'error',
